@@ -11,22 +11,22 @@
         "*.ts"
       ],
       "rules": {
-        "@angular-eslint/directive-selector": [
-          "error",
-          {
-            "type": "attribute",
-            "prefix": "app",
-            "style": "camelCase"
-          }
-        ],
-        "@angular-eslint/component-selector": [
-          "error",
-          {
-            "type": "element",
-            "prefix": "app",
-            "style": "kebab-case"
-          }
-        ]
+        // "@angular-eslint/directive-selector": [
+        //   true,
+        //   {
+        //     "type": "attribute",
+        //     "prefix": "",
+        //     "style": "camelCase"
+        //   }
+        // ],
+        // "@angular-eslint/component-selector": [
+        //   true,
+        //   {
+        //     "type": "element",
+        //     "prefix": "fb",
+        //     "style": "kebab-case"
+        //   }
+        // ]
       },
       "extends": [
         "plugin:@nrwl/nx/angular",
